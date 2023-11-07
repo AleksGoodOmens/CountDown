@@ -1,0 +1,17 @@
+.flex {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  gap: 1rem;
+  padding: 0 15px;
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.wrapper {
+}
+.title {
+  text-align: center;
+  color: var(--accent);
+}

@@ -1,0 +1,30 @@
+.event {
+  // .{styles.event__title}
+  text-align: center;
+  border: 1px solid var(--primary);
+  padding: 1rem;
+  border-radius: 8px;
+  transition: all 0.5s;
+  cursor: pointer;
+  &:hover {
+    background-color: var(--accent);
+  }
+
+  &__title {
+  }
+
+  &__exist {
+    background-color: var(--accent-exist);
+  }
+
+  // .{styles.event__counter}
+
+  &__counter {
+    margin-bottom: 1rem;
+  }
+
+  // .{styles.event__button}
+
+  &__button {
+  }
+}

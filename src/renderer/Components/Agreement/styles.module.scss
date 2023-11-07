@@ -1,0 +1,19 @@
+.box {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+  border: 1px solid var(--primary);
+  background-color: var(--accent);
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  button {
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
+    &:hover {
+      background-color: var(--primary-dark);
+    }
+  }
+}
